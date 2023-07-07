@@ -8,6 +8,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 150px;
+  margin-right: 50px;
 }
 nav > ul {
   display: flex;
@@ -43,4 +45,19 @@ nav a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner-dis {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.profile-pic {
+  width: 460px;
 }
